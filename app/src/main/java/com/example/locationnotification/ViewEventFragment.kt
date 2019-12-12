@@ -1,4 +1,4 @@
-package com.example.mobileprojectpractice
+package com.example.locationnotification
 
 
 import android.os.Bundle
@@ -8,21 +8,18 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
 import androidx.databinding.DataBindingUtil
-import com.example.locationnotification.R
-import com.example.locationnotification.databinding.FragmentEventCreatorBinding
+import com.example.locationnotification.databinding.FragmentEventFocusViewBinding
 
-
-
-class EventCreatorFragment : Fragment() {
+class ViewEventFragment : Fragment() {
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        val binding = DataBindingUtil.inflate<FragmentEventCreatorBinding>(inflater, R.layout.fragment_event_creator,container,false)
-
+        val binding = DataBindingUtil.inflate<FragmentEventFocusViewBinding>(inflater, R.layout.fragment_event_focus_view,container,false)
         return binding.root
     }
+
 
 
 }

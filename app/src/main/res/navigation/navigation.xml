@@ -26,5 +26,14 @@
         tools:layout="@layout/fragment_event_list"
         android:id="@+id/eventListFragment"
         android:name="com.example.locationnotification.EventListFragment"
-        android:label="EventListFragment" />
+        android:label="EventListFragment" >
+        <action
+            android:id="@+id/action_eventListFragment_to_viewEventFragment"
+            app:destination="@id/viewEventFragment" />
+    </fragment>
+    <fragment
+        tools:layout="@layout/fragment_event_focus_view"
+        android:id="@+id/viewEventFragment"
+        android:name="com.example.locationnotification.ViewEventFragment"
+        android:label="ViewEventFragment" />
 </navigation>
