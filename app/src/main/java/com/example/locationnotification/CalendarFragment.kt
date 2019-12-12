@@ -25,8 +25,10 @@ class CalendarFragment : Fragment() {
         val binding = DataBindingUtil.inflate<FragmentCalendarBinding>(inflater, R.layout.fragment_calendar,container,false)
         val calendar: CalendarView = binding.calendarViewMain
         val dateButton: Button = binding.buttonTest
-        val textTest: TextView = binding.eventHeader
+        val textTest: TextView = binding.eventReminderHeader
         binding.buttonTest.setOnClickListener { view : View -> view.findNavController().navigate(R.id.action_calendarFragment_to_eventCreatorFragment) }
+        binding.viewEventsButton.setOnClickListener { view : View -> view.findNavController().navigate(R.id.action_calendarFragment_to_eventListFragment) }
+
 
         calendar.setOnDateChangeListener { view, year, month, dayOfMonth ->
             val Date = (month + 1).toString() + "-" + dayOfMonth + "-" + year

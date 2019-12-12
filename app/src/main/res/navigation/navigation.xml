@@ -13,10 +13,18 @@
         <action
             android:id="@+id/action_calendarFragment_to_eventCreatorFragment"
             app:destination="@id/eventCreatorFragment" />
+        <action
+            android:id="@+id/action_calendarFragment_to_eventListFragment"
+            app:destination="@id/eventListFragment" />
     </fragment>
     <fragment
         tools:layout="@layout/fragment_event_creator"
         android:id="@+id/eventCreatorFragment"
         android:name="com.example.mobileprojectpractice.EventCreatorFragment"
         android:label="EventCreatorFragment" />
+    <fragment
+        tools:layout="@layout/fragment_event_list"
+        android:id="@+id/eventListFragment"
+        android:name="com.example.locationnotification.EventListFragment"
+        android:label="EventListFragment" />
 </navigation>

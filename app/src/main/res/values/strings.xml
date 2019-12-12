@@ -4,8 +4,11 @@
 
 
     <string name="mainButtonText">Create Event</string>
-    <string name="eventHeaderTitleText">Event Picker</string>
+    <string name="eventHeaderTitleText">Event Reminder</string>
     <string name="date_header_text">Date</string>
     <string name="time_header_text">Time</string>
     <string name="create_event_button_text">Create Event</string>
+    <string name="view_events_button_text">View Events</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
