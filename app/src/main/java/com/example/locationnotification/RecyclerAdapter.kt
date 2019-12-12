@@ -18,6 +18,7 @@ class RecyclerAdapter : RecyclerView.Adapter<ViewHolder>(){
     override fun getItemCount(): Int {
         return eventTitles.size
     }
+    //
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         val eventTitle = eventTitles.get(position)
