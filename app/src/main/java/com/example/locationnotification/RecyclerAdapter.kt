@@ -5,14 +5,14 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.navigation.findNavController
 import androidx.recyclerview.widget.RecyclerView
+import com.example.locationnotification.databinding.FragmentEventListBinding
 import kotlinx.android.synthetic.main.text_event_item_view.view.*
 
-class RecyclerAdapter : RecyclerView.Adapter<ViewHolder>(){
+class RecyclerAdapter(binding: FragmentEventListBinding) : RecyclerView.Adapter<ViewHolder>(){
 
-    //val eventTitles = listOf<String>("Testing", "Run 1 mile", "Run 1 mile", "Run 1 mile", "Run 1 mile", "Run 1 mile", "Run 1 mile", "Testing", "Pick up", "Testing", "Pick up", "Testing", "Pick up", "Testing", "Pick up", "Testing", "Pick up", "Testing", "Pick up")
     val event1 = CalEvent("my event", "march whatever","10:32:54","ur mums house")
     val event2 = CalEvent("my other event", "november whatever","17:34:01","ur other mums house")
-    val eventTitles = listOf<CalEvent>(event1,event2)
+    val eventTitles = mutableListOf<CalEvent>()
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
         val layoutInflater = LayoutInflater.from(parent.context)
         val cellForRow = layoutInflater.inflate(R.layout.text_event_item_view, parent, false)
