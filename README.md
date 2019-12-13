@@ -26,14 +26,14 @@ Photo by **[Tranmautritam](https://www.pexels.com/@tranmautritam?utm_content=att
 
 Photo by **[Pixabay](https://www.pexels.com/@pixabay?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels)** from **[Pexels](https://www.pexels.com/photo/sky-earth-galaxy-universe-2422/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels)**
 
+**Inputting Data Sample**
+
+<a href="https://media.giphy.com/media/XHpYeuwn9sRTOjpUiP/giphy.gif"><img src="https://media.giphy.com/media/XHpYeuwn9sRTOjpUiP/giphy.gif" width="300"/> </a>f
+
 **Map Location Sample**
 
 <a href="https://media.giphy.com/media/giFeJ4gEdY59rEZPvh/giphy.gif "><img src="https://media.giphy.com/media/giFeJ4gEdY59rEZPvh/giphy.gif" width="300"/> </a>
 
-
-**Inputting Data Sample**
-
-<a href="https://media.giphy.com/media/XHpYeuwn9sRTOjpUiP/giphy.gif"><img src="https://media.giphy.com/media/XHpYeuwn9sRTOjpUiP/giphy.gif" width="300"/> </a>
 
 ---
 
@@ -117,7 +117,7 @@ class CalEvent(val name: String, val date: String, val time: String, val locatio
 
 ## Team Not Haskell
 
-| <a href="https://github.com/im-abram" target="_blank">**Abram**</a> | <a href="https://github.com/agarcia117" target="_blank">**Allen**</a> | <a href="https://github.com/HuangLA" target="_blank">**Huang**</a> | <a href="https://github.com/ChowJustin" target="_blank">**Justin**</a> |
+| <a href="https://github.com/im-abram" target="_blank">**Abram**</a> | <a href="https://github.com/agarcia117" target="_blank">**Alan**</a> | <a href="https://github.com/HuangLA" target="_blank">**Huang**</a> | <a href="https://github.com/ChowJustin" target="_blank">**Justin**</a> |
 | :---: |:---:| :---:| :---:|
 |<a href="https://avatars2.githubusercontent.com/u/48164193?s=400&v=4"><img src="https://avatars2.githubusercontent.com/u/48164193?s=400&v=4" width="200" height="200"/></a>| <a href="https://avatars2.githubusercontent.com/u/43732771?s=400&v=4"><img src="https://avatars2.githubusercontent.com/u/43732771?s=400&v=4" width="200" height="200"/> </a> | <a href="https://avatars3.githubusercontent.com/u/35882142?s=460&v=4"><img src="https://avatars3.githubusercontent.com/u/35882142?s=460&v=4" width="200" height="200"/></a> | <a href="https://avatars0.githubusercontent.com/u/3687369?s=460&v=4"><img src="https://avatars0.githubusercontent.com/u/3687369?s=460&v=4" width="200" height="200"/> </a>
 | <a href="https://github.com/im-abram" target="_blank">`github.com/im-abram`</a> | <a href="https://github.com/agarcia117" target="_blank">`github.com/agarcia117`</a> | <a href="https://github.com/HuangLA" target="_blank">`github.com/HuangLA`</a> | <a href="https://github.com/ChowJustin" target="_blank">`github.com/ChowJustin`</a> 
@@ -144,7 +144,7 @@ Reach out to us at one of the following places!
 **Abram**
 - Twitter at <a href="https://twitter.com/Im_abram_tbh" target="_blank">`@Im_abram_tbh`</a>
 
-**Allen**
+**Alan**
 
 - github at  <a href="https://github.com/agarcia117" target="_blank">`github.com/agarcia117`</a> 
 
