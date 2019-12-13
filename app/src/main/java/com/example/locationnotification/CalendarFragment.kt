@@ -28,23 +28,15 @@ class CalendarFragment : Fragment() {
     ): View? {
         val binding = DataBindingUtil.inflate<FragmentCalendarBinding>(inflater, R.layout.fragment_calendar,container,false)
         val calendar: CalendarView = binding.calendarViewMain
-        val dateButton: Button = binding.buttonTest
         val textTest: TextView = binding.eventReminderHeader
-        binding.buttonTest.setOnClickListener { view : View -> view.findNavController().navigate(R.id.action_calendarFragment_to_eventCreatorFragment)
-//            val intent = Intent(Intent.ACTION_INSERT)
-//                .setData(CONTENT_URI)
-//                .putExtra(TITLE, "My Event")
-//                .putExtra(EVENT_LOCATION, "Here")
-//                .putExtra(CalendarContract.EXTRA_EVENT_BEGIN_TIME, System.currentTimeMillis())
-//                .putExtra(CalendarContract.EXTRA_EVENT_END_TIME, System.currentTimeMillis() + (60 * 60 * 1000))
-//            startActivity(intent)
-        }
+        binding.createEventButton.setOnClickListener { view : View -> view.findNavController().navigate(R.id.action_calendarFragment_to_eventCreatorFragment) }
         binding.viewEventsButton.setOnClickListener { view : View -> view.findNavController().navigate(R.id.action_calendarFragment_to_eventListFragment) }
 
 
         calendar.setOnDateChangeListener { view, year, month, dayOfMonth ->
+            //This grabs the date when the user taps on a date on the calendar
+            //Try to use this when creating a event
             val Date = (month + 1).toString() + "-" + dayOfMonth + "-" + year
-            textTest.text = Date
         }
         return binding.root
     }

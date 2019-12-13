@@ -21,7 +21,11 @@
         tools:layout="@layout/fragment_event_creator"
         android:id="@+id/eventCreatorFragment"
         android:name="com.example.mobileprojectpractice.EventCreatorFragment"
-        android:label="EventCreatorFragment" />
+        android:label="EventCreatorFragment" >
+        <action
+            android:id="@+id/action_eventCreatorFragment_to_calendarFragment"
+            app:destination="@id/calendarFragment" />
+    </fragment>
     <fragment
         tools:layout="@layout/fragment_event_list"
         android:id="@+id/eventListFragment"
