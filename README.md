@@ -28,8 +28,7 @@ Photo by **[Pixabay](https://www.pexels.com/@pixabay?utm_content=attributionCopy
 
 **Map Location Sample**
 
-![https://recordit.co/jMT6cG2Oa7.gif](https://recordit.co/jMT6cG2Oa7.gif =300x)
-
+<img src="https://recordit.co/jMT6cG2Oa7.gif"  alt="Map Location Sample" width="300">
 
 
 **Inputting Data Sample**
