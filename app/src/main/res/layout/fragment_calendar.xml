@@ -7,6 +7,7 @@
         android:id="@+id/constraintLayout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:background="#C3E0F5"
         tools:context=".MainActivity">
 
         <TextView
@@ -14,7 +15,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/eventHeaderTitleText"
+            android:textColor="@android:color/black"
             android:textSize="24sp"
+            android:textStyle="bold"
             app:layout_constraintBottom_toTopOf="@+id/calendarViewMain"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -31,13 +34,17 @@
             app:layout_constraintVertical_bias="0.31" />
 
         <Button
-            android:id="@+id/buttonTest"
+            android:id="@+id/createEventButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="50dp"
             android:layout_marginLeft="50dp"
             android:layout_marginTop="32dp"
+            android:background="@drawable/button_style"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp"
             android:text="@string/mainButtonText"
+            android:textColor="@android:color/white"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/calendarViewMain" />
 
@@ -47,8 +54,12 @@
             android:layout_height="wrap_content"
             android:layout_marginEnd="50dp"
             android:layout_marginRight="50dp"
+            android:background="@drawable/button_style"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp"
             android:text="@string/view_events_button_text"
+            android:textColor="@android:color/white"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toTopOf="@+id/buttonTest" />
+            app:layout_constraintTop_toTopOf="@+id/createEventButton" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>
