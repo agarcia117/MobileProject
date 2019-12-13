@@ -9,7 +9,7 @@ import kotlinx.android.synthetic.main.text_event_item_view.view.*
 
 class RecyclerAdapter : RecyclerView.Adapter<ViewHolder>(){
 
-    //val eventTitles = listOf<String>("Testing", "Run 1 mile", "Run 1 mile", "Run 1 mile", "Run 1 mile", "Run 1 mile", "Run 1 mile", "Testing", "Pick up", "Testing", "Pick up", "Testing", "Pick up", "Testing", "Pick up", "Testing", "Pick up", "Testing", "Pick up")
+    //vval eventTitles = listOf<String>("Testing", "Run 1 mile", "Run 1 mile", "Run 1 mile", "Run 1 mile", "Run 1 mile", "Run 1 mile", "Testing", "Pick up", "Testing", "Pick up", "Testing", "Pick up", "Testing", "Pick up", "Testing", "Pick up", "Testing", "Pick up")
     val event1 = CalEvent("my event", "march whatever","10:32:54","ur mums house")
     val event2 = CalEvent("my other event", "november whatever","17:34:01","ur other mums house")
     val eventTitles = listOf<CalEvent>(event1,event2)
