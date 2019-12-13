@@ -35,10 +35,6 @@ Photo by **[Pixabay](https://www.pexels.com/@pixabay?utm_content=attributionCopy
 
 <a href="https://media.giphy.com/media/XHpYeuwn9sRTOjpUiP/giphy.gif"><img src="https://media.giphy.com/media/XHpYeuwn9sRTOjpUiP/giphy.gif" width="300"/> </a>
 
-**Calendar Sample**
-
-<a href="https://media.giphy.com/media/giFeJ4gEdY59rEZPvh/giphy.gif "><img src="https://media.giphy.com/media/giFeJ4gEdY59rEZPvh/giphy.gif" width="300"/> </a>
-
 ---
 
 ## Table of Contents
