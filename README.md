@@ -2,16 +2,20 @@
 
 # Notification Location  - Never Forget Again
 
-> A Kotlin Android application which allows the user to set up a notification and reminds them on a specific location and time with a message/image.
+> A Kotlin Android application which allows the user to set up a notification and keeps track of them on a specific location and time with a message.
 >
 >Think of this project as a template or starting point to creating your own notification location application.
 
 - build status - passing
-- coverage - 90%
+- coverage - 80%
+- Android CompileSKDVersion 29
+- Kotlin Version 1.3.50
+- Simulated on Pixel 3
+- Android 10.0
 - **[MIT license](http://opensource.org/licenses/mit-license.php)**
 
 
-![Build Status](http://img.shields.io/travis/badges/badgerbadgerbadger.svg?style=flat-square) ![https://img.shields.io/badge/coverage-90%25-brightgreen](https://img.shields.io/badge/coverage-90%25-brightgreen) [![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org) 
+![Build Status](http://img.shields.io/travis/badges/badgerbadgerbadger.svg?style=flat-square) ![https://img.shields.io/badge/coverage-80%25-brightgreen](https://img.shields.io/badge/coverage-80%25-brightgreen) [![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org) 
 
 **Physical Representation of College Students**
 
@@ -24,11 +28,13 @@ Photo by **[Pixabay](https://www.pexels.com/@pixabay?utm_content=attributionCopy
 
 **Map Location Sample**
 
-![http://g.recordit.co/k1WbntOlFV.gif](http://g.recordit.co/k1WbntOlFV.gif)
+![https://recordit.co/jMT6cG2Oa7.gif](https://recordit.co/jMT6cG2Oa7.gif =300x)
+
+
 
 **Inputting Data Sample**
 
-![ttystudio GIF](https://raw.githubusercontent.com/chjj/ttystudio/master/img/example.gif)
+
 
 **Calendar Sample**
 
@@ -37,7 +43,7 @@ Photo by **[Pixabay](https://www.pexels.com/@pixabay?utm_content=attributionCopy
 ## Table of Contents
 
 - [Features](#features)
-- [Examples](#example)
+- [Examples](#examples)
 - [Contributing](#contributing)
 - [Team Not Haskell](#team-not-haskell)
 - [FAQ](#faq)
@@ -46,29 +52,51 @@ Photo by **[Pixabay](https://www.pexels.com/@pixabay?utm_content=attributionCopy
 
 ## Features
 
- - Allow the user to choose a destination on google map and set up a notification.
- - Keeps track of your specific notification.
+ - Allow the user to choose a destination on google map and place the notification.
+ - Keeps track of your specific notification in a well organized list.
  - A simple and intuitive way to remind yourself on what needs to be done.
-
-
-
 ---
 
 ## Examples
 
-```javascript
-// code away!
+**Map Location Sample Code**
+```kotlin
+//Google Map Section
 
-let generateProject = project => {
-  let code = [];
-  for (let js = 0; js < project.length; js++) {
-    code.push(js);
-  }
-};
+lateinit var mapFragment: SupportMapFragment  
+lateinit var googleMap: GoogleMap  
+lateinit var locationManager: LocationManager
 ```
+- Here are some notable variables on the Google map section to get started on your template.
+- On `mapFragment` is where you initialize the SupportMapFragments
+- `googleMap`  has all the classes you need to add the markers
 
-- Going into more detail on code and technologies used
-- I utilized this nifty <a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet" target="_blank">Markdown Cheatsheet</a> for this sample `README`.
+**Inputting Data Sample Code**
+
+```kotlin
+//Inputting Data Section
+
+class CalEvent(val name: String, val date: String, val time: String, val location: String) {  
+    val eventname: String  
+    val eventdate: String  
+    val eventtime: String  
+    val eventlocation: String  
+    init{  
+        eventname = name  
+		eventdate = date  
+        eventtime = time  
+        eventlocation = location  
+  }  
+}
+```
+- These are some of the variables we used to store our events
+
+**Calendar Sample Code**
+```kotlin
+//Calendar Section
+
+
+```
 
 ---
 
@@ -109,13 +137,13 @@ let generateProject = project => {
 ## FAQ
 
 - **What was the point of this project?**
-    - Our team did this to showcase our knowledge on an Android Kotlin class and the get more familiar with Android Studio, Git, and Github.
+    - Our team did this to test our knowledge on an Android Kotlin class and the get more familiar with Android Studio, Git, and Github.
     
 - **How long did it take to finish the project?**
-    - If we were to estimate, this project took our team about 200-man-hours. This included research, coding, and debugging. Since this was a four man group effort, that is about 50-hours per person.
+    - If we were to estimate, this project took our team about 100-man-hours. This included research, coding, debugging, and collaborating . Since this was a four man group effort, that is about 50-hours per person.
 
 - **What do I do if the project doesn't run?**
-    - Try and decode the project yourself. However, if you are still stuck then send us a message on our socials with the contacts below. 
+    - It will most likely be compiler version not on the latest version or missing SDKs. Also, try to run the application on Pixel 3 Android 10.0 as that is the emulator we used. However, if you are still stuck then send us a message on our socials with the contacts below. 
 
 ---
 
