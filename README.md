@@ -1,4 +1,3 @@
-
 <a href="https://imgur.com/5B6WccZ"><img src="https://i.imgur.com/5B6WccZ.png" title="source: imgur.com" width="311" height="400"/> </a>
 
 # Notification Location  - Never Forget Again
@@ -102,10 +101,10 @@ let generateProject = project => {
 
 | <a href="https://github.com/im-abram" target="_blank">**Abram**</a> | <a href="https://github.com/agarcia117" target="_blank">**Allen**</a> | <a href="https://github.com/HuangLA" target="_blank">**Huang**</a> | <a href="https://github.com/ChowJustin" target="_blank">**Justin**</a> |
 | :---: |:---:| :---:| :---:|
-|![https://avatars2.githubusercontent.com/u/48164193?s=400&v=4 =300x](https://avatars2.githubusercontent.com/u/48164193?s=400&v=4 =300x)| ![https://avatars2.githubusercontent.com/u/43732771?s=400&v=4&s=200 =300x](https://avatars2.githubusercontent.com/u/43732771?s=400&v=4&s=200 =300x) | ![https://avatars3.githubusercontent.com/u/35882142?s=460&v=4 =300x](https://avatars3.githubusercontent.com/u/35882142?s=460&v=4 =300x) | ![https://avatars0.githubusercontent.com/u/3687369?s=460&v=4 =300x](https://avatars0.githubusercontent.com/u/3687369?s=460&v=4 =300x)
+|<a href="https://avatars2.githubusercontent.com/u/48164193?s=400&v=4"><img src="https://avatars2.githubusercontent.com/u/48164193?s=400&v=4" width="200" height="200"/></a>| <a href="https://avatars2.githubusercontent.com/u/43732771?s=400&v=4"><img src="https://avatars2.githubusercontent.com/u/43732771?s=400&v=4" width="200" height="200"/> </a> | <a href="https://avatars3.githubusercontent.com/u/35882142?s=460&v=4"><img src="https://avatars3.githubusercontent.com/u/35882142?s=460&v=4" width="200" height="200"/></a> | <a href="https://avatars0.githubusercontent.com/u/3687369?s=460&v=4"><img src="https://avatars0.githubusercontent.com/u/3687369?s=460&v=4" width="200" height="200"/> </a>
 | <a href="https://github.com/im-abram" target="_blank">`github.com/im-abram`</a> | <a href="https://github.com/agarcia117" target="_blank">`github.com/agarcia117`</a> | <a href="https://github.com/HuangLA" target="_blank">`github.com/HuangLA`</a> | <a href="https://github.com/ChowJustin" target="_blank">`github.com/ChowJustin`</a> 
-
 ---
+
 
 ## FAQ
 
