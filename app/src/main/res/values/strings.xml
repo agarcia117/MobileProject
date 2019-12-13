@@ -3,7 +3,7 @@
     <string name="title_activity_maps">Map</string>
 
 
-    <string name="mainButtonText">Create Event</string>
+    <string name="mainButtonText">Add Event</string>
     <string name="eventHeaderTitleText">Event Reminder</string>
     <string name="date_header_text">Date</string>
     <string name="time_header_text">Time</string>

@@ -34,8 +34,9 @@ class CalendarFragment : Fragment() {
 
 
         calendar.setOnDateChangeListener { view, year, month, dayOfMonth ->
+            //This grabs the date when the user taps on a date on the calendar
+            //Try to use this when creating a event
             val Date = (month + 1).toString() + "-" + dayOfMonth + "-" + year
-            textTest.text = Date
         }
         return binding.root
     }
